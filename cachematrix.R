@@ -9,7 +9,8 @@
 ## The second function, cacheSolve(), takes an output from makeCacheMatrix() as 
 ## an argument. It then determines if an inverse matrix of the given matrix 
 ## already exists in the cache. If so, the existing inverse matrix is returned.
-## Otherwise, a new inverse matrix is calculated and returned.
+## Otherwise, a new inverse matrix is calculated and returned.This new matrix
+## also replaces the old one in the cache.
 
 
 ## The following function creates a list of functions that can be used to 
